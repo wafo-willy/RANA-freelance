@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANA RANA-Freelance</title>
+    <link rel="stylesheet" href="resources/ol/ol.css">
+    <link rel="stylesheet" href="resources/layerswitcher/ol-layerswitcher.css">
+    <link rel="stylesheet" href="resources/fontawesome/css/all.css">
+
+ <link rel="stylesheet" href="rana.css">
+</head>
+<body>
+ 
+
+     <div class="grid-contener">
+      
+        <div class="header">
+            <img src="resources/images/v2 bon.png" alt="" style="width: inherit; height: inherit; vertical-align: middle;">
+            <span style="vertical-align: middle;">RANA-Freelance</span>
+            
+        </div>
+
+        <!-- <select class="bottombar-crs-selector"><option value="EPSG:4326">WGS 84</option><option value="EPSG:32632">EPSG:32632</option></select>
+     <!--les balises ci dessous genere une barre laterale des differente couches presente dans une carte  
+        <div class="lelft">
+          <div class="toc">
+              <h3>Layers</h3>
+              <input type="checkbox" id="osm" name="osm" value="Open Street Map" checked onchange="toggleLayer(event);">
+              <label for="osm">Open Street Map</label>
+              <br>
+
+              <input type="checkbox" id="ARRONDISSEMENT" name="ARRONDISSEMENT" value="communes" checked onchange="toggleLayer(event);">
+              <label for="ARRONDISSEMENT">communes</label>
+              <br>
+
+              <input type="checkbox" id="chaussee1" name="chaussee1" value="degradations" checked onchange="toggleLayer(event);">
+              <label for="chaussee1">degradations</label>
+              <br>
+
+            </div>
+
+        </div>
+      -->
+
+    
+        <div class="right">
+          
+            <div id="map">
+              <button id="btnCrosshair" title="Temp reel">
+                <i class="fas fa-crosshairs fa-2x"></i>
+              </button>
+
+              <div id="popup" class="ol-popup">
+                <a herf="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+              </div>
+              <!--<a href="https://qgiscloud.com/MAPSCFC/mapcfc/?l=MAPS%20CFC%2CGoogle%20Terrain%20Hybrid!%2CGoogle%20Satellite%20Hybrid&t=mapcfc&e=573337%2C352722%2C766748%2C554334" target="_blank" rel="noopener noreferrer">QGIS</a>-->
+            </div>
+        </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="resources/fontawesome/js/all.js"></script>
+  <script src="resources/ol/ol.js"></script> 
+  <script src="resources/layerswitcher/ol-layerswitcher.js"></script>
+  <script src="rana.js"></script> 
+</body>
+</html>
